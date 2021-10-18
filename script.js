@@ -4,12 +4,12 @@
 // task 0 
 
 
-// class Point {
-// 	constructor() {
-// 		this.x = Math.round(Math.random(10, 100) * 10);
-// 		this.y = Math.round(Math.random(10, 100) * 10);
-// 	}
-// }
+class Point {
+	constructor() {
+		this.x = Math.round(Math.random() * 10);
+		this.y = Math.round(Math.random() * 10);
+	}
+}
 // class Line {
 // 	constructor() {
 // 		this.point1 = new Point();
